@@ -5,3 +5,39 @@
 body{
     background-color: aqua;
 }
+header{
+    height: 50px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+}
+.title-company{
+    font-size: 35px;
+    background:linear-gradient( rgba(132, 144, 255, 1),rgba(0, 255, 87, 0.88));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349
+
+}
+nav::before{
+    content: '=';
+}
+ul{
+    /* display: none; */
+    list-style: none;
+}
+
+.open{
+    display: block;
+}
+.container{
+    height:  250px;
+    background-color: royalblue;
+    margin-bottom: 3px;
+}
+.about{
+    background-color: salmon;
+}
+.me{
+    background-color: seagreen;
+}
